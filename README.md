@@ -3,7 +3,7 @@
 This is a Chrome extension that enhances the user experience with OpenAI's ChatGPT. It includes functionality for pinning chats and reordering them based on their pinned status. The extension also provides a file upload feature.
 
 ## File Structure
-
+```
 ├── assets
 │ └── icon.png
 ├── css
@@ -15,7 +15,7 @@ This is a Chrome extension that enhances the user experience with OpenAI's ChatG
 ├── LICENSE
 ├── manifest.json
 └── README.md
-
+```
 
 ## Files Description
 
