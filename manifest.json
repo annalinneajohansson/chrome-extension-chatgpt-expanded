@@ -1,0 +1,29 @@
+{
+   "action": {},
+   "content_scripts": [
+      {
+         "js": [
+            "fileupload.js",
+            "pinchats.js"
+         ],
+         "css": [
+            "app.css"
+         ],
+         "matches": [
+            "https://chat.openai.com/*"
+         ]
+      }
+   ],
+   "description": "1) ChatGPT file uploading 2) Pin chats",
+   "icons": {
+      "128": "icon.png",
+      "16": "icon.png",
+      "48": "icon.png"
+   },
+   "manifest_version": 3,
+   "name": "ChatGPT Extended",
+   "host_permissions": [
+      "https://chat.openai.com/*"
+   ],
+   "version": "1.0"
+}

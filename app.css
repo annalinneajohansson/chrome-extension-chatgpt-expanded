@@ -1,0 +1,12 @@
+input[type=number] {
+    border-radius: 25px;
+}
+.wcg-toolbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.btn-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
